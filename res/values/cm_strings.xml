@@ -123,5 +123,6 @@
     <!-- Settings item description for boolean SMS Split 160 characters setting -->
     <string name="pref_summary_sms_split_counter">Adds counter to message ex. (1/2)</string>
 
+    <string name="start_new_message_button">New message</string>
 
 </resources>
