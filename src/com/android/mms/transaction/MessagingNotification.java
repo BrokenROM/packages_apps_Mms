@@ -936,25 +936,21 @@ public class MessagingNotification {
         } else {    // same thread, single or multiple messages
             if (!privacyMode) {
                 title = mostRecentNotification.mTitle;
-                BitmapDrawable contactDrawable = (BitmapDrawable)mostRecentNotification.mSender
-                        .getAvatar(context, null);
-                if (contactDrawable != null) {
+                avatar = mostRecentNotification.mSender.getAvatar(context);
+                if (avatar != null) {
                     // Show the sender's avatar as the big icon. Contact bitmaps are 96x96 so we
                     // have to scale 'em up to 128x128 to fill the whole notification large icon.
-                    avatar = contactDrawable.getBitmap();
+                    final int idealIconHeight =
+                        res.getDimensionPixelSize(android.R.dimen.notification_large_icon_height);
+                    final int idealIconWidth =
+                        res.getDimensionPixelSize(android.R.dimen.notification_large_icon_width);
+                    if (avatar.getHeight() < idealIconHeight) {
+                        // Scale this image to fit the intended size
+                        avatar = Bitmap.createScaledBitmap(
+                            avatar, idealIconWidth, idealIconHeight, true);
+                    }
                     if (avatar != null) {
-                        final int idealIconHeight =
-                            res.getDimensionPixelSize(android.R.dimen.notification_large_icon_height);
-                        final int idealIconWidth =
-                             res.getDimensionPixelSize(android.R.dimen.notification_large_icon_width);
-                        if (avatar.getHeight() < idealIconHeight) {
-                            // Scale this image to fit the intended size
-                            avatar = Bitmap.createScaledBitmap(
-                                    avatar, idealIconWidth, idealIconHeight, true);
-                        }
-                        if (avatar != null) {
-                            noti.setLargeIcon(avatar);
-                        }
+                        noti.setLargeIcon(avatar);
                     }
                 }
             } else {
@@ -1064,15 +1060,6 @@ public class MessagingNotification {
                             PendingIntent.FLAG_UPDATE_CURRENT);
                     noti.addAction(R.drawable.ic_reply, qmText, qmPendingIntent);
                 }
-
-                // Add the 'Mark as read' action
-                CharSequence markReadText = context.getText(R.string.qm_mark_read);
-                Intent mrIntent = new Intent();
-                mrIntent.setClass(context, QmMarkRead.class);
-                mrIntent.putExtra(QmMarkRead.SMS_THREAD_ID, mostRecentNotification.mThreadId);
-                PendingIntent mrPendingIntent = PendingIntent.getBroadcast(context, 0, mrIntent,
-                        PendingIntent.FLAG_UPDATE_CURRENT);
-                noti.addAction(R.drawable.ic_mark_read_holo_dark, markReadText, mrPendingIntent);
 
                 // Add the Call action
                 CharSequence callText = context.getText(R.string.menu_call);

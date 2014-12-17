@@ -30,9 +30,8 @@
     <!-- Chat "sent time" text background -->
     <color name="timestamp_color">#bf000000</color>
 
-    <!-- the background color used for unread conversation -->
-    <color name="unread_bgcolor">#ffffffff</color>
-    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="outgoing_message_bg">#ffffff</color>
+    <color name="incoming_message_bg_default">#26c6da</color>
 
     <color name="widget_sender_text_color_read">#555555</color>
     <color name="widget_sender_text_color_unread">#333333</color>
@@ -48,6 +47,8 @@
 
     <color name="text_shadow_color_light">#33000000</color>
     <color name="solid_white">#ffffffff</color>
+
+    <color name="slot_indicator_background">#737373</color>
 
     <!-- material theme colors -->
     <color name="mms_theme_color">#0288d1</color>
