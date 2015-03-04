@@ -30,14 +30,14 @@
         android:layout_below="@+id/banner_sms_promo"
         android:drawSelectorOnTop="false"
         android:scrollbarStyle="insideOverlay"
-        android:background="@android:color/white"
-        android:cacheColorHint="@android:color/white"
+        android:background="@color/background"
         android:fadingEdgeLength="16dip" />
 
     <TextView android:id="@+id/empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="center"        
+        android:background="@color/background"
         android:text="@string/loading_conversations"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
