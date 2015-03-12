@@ -43,6 +43,9 @@
     <!-- Needed for QuickMessage -->
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
 
+    <uses-permission android:name="android.permission.CHANGE_PHONE_BLACKLIST" />
+    <uses-permission android:name="android.permission.READ_PHONE_BLACKLIST" />
+
     <!-- System apps can access the  receiver through intent-->
     <permission android:name="android.permission.MMS_SEND_OUTBOX_MSG"
                 android:protectionLevel="signatureOrSystem"
@@ -244,6 +247,7 @@
              android:permission="android.permission.SEND_SMS">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.android.mms.action.REMOVE_BLACKLIST" />
             </intent-filter>
             <intent-filter>
                 <action android:name="com.android.mms.transaction.MESSAGE_SENT" />
