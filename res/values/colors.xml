@@ -31,8 +31,8 @@
     <color name="timestamp_color">#bf000000</color>
 
     <!-- the background color used for unread conversation -->
-    <color name="unread_bgcolor">@color/unread_background_color</color>
-    <color name="read_bgcolor">@color/read_background_color</color>
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
 
     <color name="widget_sender_text_color_read">#555555</color>
     <color name="widget_sender_text_color_unread">#333333</color>
@@ -51,8 +51,4 @@
 
     <color name="slot_indicator_background">#737373</color>
 
-    <!-- Palette colors referenced by top-level themes. -->
-    <color name="theme_primary">#ff263238</color>
-    <color name="theme_primary_dark">#ff21272b</color>
-    <color name="theme_accent">#ff009688</color>
 </resources>
