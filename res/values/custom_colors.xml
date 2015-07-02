@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,12 +20,13 @@
     <!-- Color of the text for buttons in the action bar  -->
     <color name="action_bar_button_text_color">#FFFFFF</color>
 
-    <!-- Text Theme colors -->
+    <!-- New text colors from layouts to make theme chooser apk easier to theme -->
     <color name="compose_message_background_color">#ffffffff</color>
     <color name="compose_message_edit_text">#000000</color>
     <color name="compose_message_text_color">#ff000000</color>
     <color name="compose_message_text_counter">#cc333333</color>
     <color name="compose_message_divider_color">#ffeeeeee</color>
+    <color name="search_activity_background_color">@android:color/white</color>
     <color name="actionbar_text">#ccffffff</color>
     <color name="delete_thread_dialog">#000000</color>
     <color name="delivery_report_header">#ffffff</color>
@@ -38,7 +39,7 @@
     <color name="widget_unread_text">#777777</color>
     <color name="widget_loading">#000000</color>
 
-    <!-- Background Theme colors -->
+    <!-- New Background colors from layouts to make theme chooser apk easier to theme -->
     <color name="background">#ffffff</color>
     <color name="darkgray_backgrounds">#888888</color>
     <color name="quickmessage_body_dark_bg">#ff1e1e1e</color>
@@ -46,11 +47,4 @@
     <color name="dividers">#eeeeee</color>
     <color name="transparent">#00000000</color>
 
-    <!-- Material theme colors -->
-    <color name="mms_theme_color">#0288d1</color>
-    <color name="mms_theme_color_dark">#0277bd</color>
-    <color name="mms_theme_color_accent">#0288d1</color>
-
-    <color name="search_activity_background_color">@android:color/white</color>
-    <color name="floating_action_button_icon_color">#ffffff</color>
 </resources>
