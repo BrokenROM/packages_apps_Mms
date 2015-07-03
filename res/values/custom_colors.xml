@@ -38,7 +38,9 @@
     <color name="message_sent">#000000</color>
     <color name="widget_unread_text">#777777</color>
     <color name="widget_loading">#000000</color>
-    <color name="recipients">#000000</color>	
+    <color name="recipients">#000000</color>
+    <color name="cache_color_hint">#ffffffff</color>
+    <color name="edit_text_color">#ff000000</color>	
 
     <!-- New Background colors from layouts to make theme chooser apk easier to theme -->
     <color name="background">#ffffff</color>
@@ -49,6 +51,8 @@
     <color name="transparent">#00000000</color>
     <color name="conversation_item_background">@android:color/transparent</color>
     <color name="listitem_background">@android:color/transparent</color>
+    <color name="bottom_panel_background">#ffffffff</color>
+    <color name="edit_text_background">#ffffffff</color>
 
     <!-- material theme colors -->
     <color name="mms_theme_color">#ff263238</color>
