@@ -51,9 +51,9 @@
     <color name="listitem_background">@android:color/transparent</color>
 
     <!-- material theme colors -->
-    <color name="mms_theme_color">#4caf50</color>
-    <color name="mms_theme_color_dark">#388e3c</color>
-    <color name="mms_theme_color_accent">#1b5e20</color>
+    <color name="mms_theme_color">#ff263238</color>
+    <color name="mms_theme_color_dark">#ff21272b</color>
+    <color name="mms_theme_color_accent">#ff009688</color>
 
     <color name="floating_action_button_icon_color">#ffffff</color>
 
