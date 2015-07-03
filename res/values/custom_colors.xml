@@ -47,6 +47,7 @@
     <color name="dividers">#eeeeee</color>
     <color name="transparent">#00000000</color>
     <color name="conversation_item_background">@android:color/transparent</color>
+    <color name="listitem_background">@android:color/transparent</color>
 
     <!-- material theme colors -->
     <color name="mms_theme_color">#4caf50</color>
