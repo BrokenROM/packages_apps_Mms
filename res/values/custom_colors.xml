@@ -38,6 +38,7 @@
     <color name="message_sent">#000000</color>
     <color name="widget_unread_text">#777777</color>
     <color name="widget_loading">#000000</color>
+    <color name="recipients">#000000</color>	
 
     <!-- New Background colors from layouts to make theme chooser apk easier to theme -->
     <color name="background">#ffffff</color>
