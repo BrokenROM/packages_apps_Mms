@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (C) 2013 The CyanogenMod Project
+<!-- Copyright (C) 2007 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
     <!-- Color of the text for buttons in the action bar  -->
     <color name="action_bar_button_text_color">#FFFFFF</color>
 
-    <!-- New text colors from layouts to make theme chooser apk easier to theme -->
+    <!-- Text colors from layouts -->
     <color name="compose_message_background_color">#ffffffff</color>
     <color name="compose_message_edit_text">#000000</color>
     <color name="compose_message_text_color">#ff000000</color>
@@ -42,7 +42,7 @@
     <color name="cache_color_hint">#ffffffff</color>
     <color name="edit_text_color">#ff000000</color>	
 
-    <!-- New Background colors from layouts to make theme chooser apk easier to theme -->
+    <!-- Background colors from layouts -->
     <color name="background">#ffffff</color>
     <color name="darkgray_backgrounds">#888888</color>
     <color name="quickmessage_body_dark_bg">#ff1e1e1e</color>
