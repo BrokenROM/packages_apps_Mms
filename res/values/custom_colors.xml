@@ -48,9 +48,9 @@
     <color name="transparent">#00000000</color>
 
     <!-- material theme colors -->
-    <color name="mms_theme_color">#0288d1</color>
-    <color name="mms_theme_color_dark">#0277bd</color>
-    <color name="mms_theme_color_accent">#0288d1</color>
+    <color name="mms_theme_color">#ff263238</color>
+    <color name="mms_theme_color_dark">#ff21272b</color>
+    <color name="mms_theme_color_accent">#ff009688</color>
 
     <color name="floating_action_button_icon_color">#ffffff</color>
 </resources>
