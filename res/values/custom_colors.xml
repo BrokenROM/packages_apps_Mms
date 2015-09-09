@@ -38,6 +38,8 @@
     <color name="message_sent">#000000</color>
     <color name="widget_unread_text">#777777</color>
     <color name="widget_loading">#000000</color>
+    <color name="cache_color_hint">#ffffffff</color>
+    <color name="edit_text_color">#ff000000</color>	
 
     <!-- Background colors from layouts -->
     <color name="background">#ffffff</color>
@@ -46,6 +48,8 @@
     <color name="quickmessage_body_light_bg">#fff3f3f3</color>
     <color name="dividers">#eeeeee</color>
     <color name="transparent">#00000000</color>
+    <color name="bottom_panel_background">#ffffffff</color>
+    <color name="edit_text_background">#ffffffff</color>
 
     <!-- material theme colors -->
     <color name="mms_theme_color">#ff263238</color>
@@ -53,4 +57,6 @@
     <color name="mms_theme_color_accent">#ff009688</color>
 
     <color name="floating_action_button_icon_color">#ffffff</color>
+    <color name="message_bubble_incoming_selected">#ffffffff</color>
+    <color name="message_bubble_outgoing_selected">#ffffffff</color>
 </resources>
