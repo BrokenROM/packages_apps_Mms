@@ -133,4 +133,5 @@
     <string name="send_delay_30seconds">30 seconds</string>
     <string name="sent_countdown">Message delivery countdown</string>
 
+    <string name="start_new_message_button">New message</string>
 </resources>
