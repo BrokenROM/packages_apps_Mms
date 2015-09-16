@@ -23,23 +23,8 @@ All Rights Reserved. -->
     <dimen name="widget_margin_right">0dip</dimen>
     <dimen name="widget_margin_bottom">0dip</dimen>
 
-    <!-- QuickMessage -->
-    <dimen name="qm_message_width">300dp</dimen>
-    <dimen name="qm_message_height">210dp</dimen>
-    <dimen name="qm_dialog_button_bar_height">48dip</dimen>
-
     <!-- Bammer item spacing -->
     <dimen name="banner_s_space">4dip</dimen>
     <dimen name="banner_m_space">8dip</dimen>
-
-    <!-- Floating action button -->
-    <dimen name="floating_action_button_height">56dp</dimen>
-    <dimen name="floating_action_button_width">56dp</dimen>
-    <dimen name="floating_action_button_radius">28dp</dimen>
-    <dimen name="floating_action_button_translation_z">5dp</dimen>
-    <dimen name="floating_action_button_margin_right">16dp</dimen>
-    <dimen name="floating_action_button_margin_bottom">16dp</dimen>
-
-    <dimen name="action_bar_elevation">2dp</dimen>
 
 </resources>
